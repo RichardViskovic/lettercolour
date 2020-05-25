@@ -1,0 +1,35 @@
+#color-picker {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 200px;
+    height: 100px;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    opacity: 50%;
+}
+
+#color-picker:hover {
+    opacity: 100%;
+}
+
+#palette {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.color {
+    height: 100px;
+    width: 200px;
+}
+
+#log {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 700px;
+    color: blue;
+    text-align: center;
+}
