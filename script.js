@@ -5,7 +5,7 @@ document.addEventListener('keyup', logKey);
 function logKey(e) {
     let temp = e.keyCode;
     temp = String.fromCharCode(temp);
-    log.textContent = temp;
+    log.textContent = temp + temp.toLowerCase();
 }
 
 
